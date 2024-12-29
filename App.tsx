@@ -58,7 +58,7 @@ export default function App() {
   
     setLoading(true);
     //Substituir pela key do OpenRouter
-    const apiKey = "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"; 
+    const apiKey = "A_CHAVE_DA_API_AQUI";  
   
     try {
       const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
